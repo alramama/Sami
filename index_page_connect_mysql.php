@@ -28,12 +28,12 @@ if($link === false){
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-            header("location: index_main.php");
+            header("location: Emp_index_form.php ");
             exit();
   
         }  
         else{
-            header("location: Add_user.php");
+            header("location: user_create_form.php");
             exit();
 
         }     
