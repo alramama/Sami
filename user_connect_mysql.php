@@ -19,16 +19,17 @@ if($link === false){
 $username = mysqli_real_escape_string($link, $_REQUEST['username']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $NAME = mysqli_real_escape_string($link, $_REQUEST['NAME']);
+$password = mysqli_real_escape_string($link, $_REQUEST['	password']);
 $Eqama_no = mysqli_real_escape_string($link, $_REQUEST['Eqama_no']);
 $Eqama_Expire_date = mysqli_real_escape_string($link, $_REQUEST['Eqama_Expire_date']);
-$Birthday = mysqli_real_escape_string($link, $_REQUEST['Birthday']);
+$Birth_day = mysqli_real_escape_string($link, $_REQUEST['Birth_day']);
 $Blood_Group = mysqli_real_escape_string($link, $_REQUEST['Blood_Group']);
 $job_title_Iqama = mysqli_real_escape_string($link, $_REQUEST['job_title_Iqama']);
 $job_title_office = mysqli_real_escape_string($link, $_REQUEST['job_title_office']);
 $mob = mysqli_real_escape_string($link, $_REQUEST['mob']);
 
 // Attempt insert query execution
-$sql = "INSERT INTO users (username, email,password,NAME,Eqama_no,Birthday,Blood_Group,$job_title_Iqama,job_title_office,mob) VALUES ('$username', '$email','$password','$NAME','$Eqama_no','$Eqama_Expire_date','$Birthday','$Blood_Group','$job_title_Iqama','$job_title_office','$mob')";
+$sql = "INSERT INTO users (username, email,password,NAME,Eqama_no,Birth_day,Blood_Group,$job_title_Iqama,job_title_office,mob) VALUES ('$username', '$email','$password','$NAME','$Eqama_no','$Eqama_Expire_date','$Birth_day','$Blood_Group','$job_title_Iqama','$job_title_office','$mob')";
 if(mysqli_query($link, $sql))
 {
         header("location: index.php");
