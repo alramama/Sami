@@ -48,7 +48,7 @@
 
     <div class="form-group">
       <label for="job title Iqama">Job Title Iqama</label>
-      <input type="text" class="form-control" id="job title Iqama" placeholder="Enter Job Title Iqama" name="job_title_Iqama" required>
+      <input type="text" class="form-control" id="job_title_Iqama" placeholder="Enter Job Title Iqama" name="job_title_Iqama" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
