@@ -13,7 +13,7 @@
 <div class="container">
   <h2> Login User </h2>
   <br>
-  <form method="post" action="login_mysql.php" href="index.php" class="needs-validation" novalidate>
+  <form method="post" action="index_page_connect_mysql.php" href="index.php" class="needs-validation" novalidate>
     <div class="form-group">
       <label for="username">username</label>
       <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" required>
