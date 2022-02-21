@@ -14,50 +14,38 @@
   <h2>Form EXPENSE CLAIM </h2>
   <form method="post" action="Insert_Expence.php" class="needs-validation" novalidate>
     <div class="form-group">
+      <label for="NAME">NAME</label>
+      <input type="text" class="form-control" id="NAME" placeholder="Enter NAME" name="NAME" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="Emp_No">Emp_No</label>
+      <input type="Number" class="form-control" id="Emp_No" placeholder="Enter Emp_No" name="Emp_No" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
       <label for="Date">Date</label>
-      <input type="date" class="form-control" id="Date" placeholder="Enter Date" name="Date" required>
+      <input type="text" class="form-control" id="Date" placeholder="Enter Date" name="Date" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
     <div class="form-group">
-      <label for="Name">Name</label>
-      <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name" required>
+      <label for="Amount_Received">Amount_Received</label>
+      <input type="text" class="form-control" id="Amount_Received" placeholder="Enter Amount_Received" name="Amount_Received" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
     <div class="form-group">
-      <label for="Department">Department</label>
-      <input type="text" class="form-control" id="Department" placeholder="Enter Department" name="Department" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-    <div class="form-group">
-      <label for="Project_Name">Project_Name</label>
-      <input type="text" class="form-control" id="Project_Name" placeholder="Enter Project_Name" name="Project_Name" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-    <div class="form-group">
-      <label for="Location">Location</label>
-      <input type="text" class="form-control" id="Location" placeholder="Enter Location" name="Location" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-    <div class="form-group">
-      <label for="AX_Project">AX_Project</label>
-      <input type="text" class="form-control" id="AX_Project" placeholder="Enter AX_Project" name="AX_Project" required>
+      <label for="Project">Project</label>
+      <input type="text" class="form-control" id="Project" placeholder="Enter Project" name="Project" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
    <div class="form-group">
-      <label for="Total_Expenses">Total_Expenses</label>
-      <input type="text" class="form-control" id="Total_Expenses" placeholder="Enter Total_Expenses" name="Total_Expenses" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-   <div class="form-group">
-      <label for="Total_Expenses">Total_Expenses</label>
-      <input type="text" class="form-control" id="Total_Expenses" placeholder="Enter Total_Expenses" name="Total_Expenses" required>
+      <label for="Transfer_sleep">Transfer_sleep</label>
+      <input type="file" class="form-control" id="Transfer_sleep" placeholder="Enter Transfer_sleep" name="Transfer_sleep" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
