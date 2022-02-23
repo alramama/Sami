@@ -21,19 +21,13 @@
     </div>
     <div class="form-group">
       <label for="Bid_No">Bid_No</label>
-      <input type="Number" class="form-control" id="Bid_No" placeholder="Enter Bid_No" name="Bid_No" required>
+      <input type="text" class="form-control" id="Bid_No" placeholder="Enter Bid_No" name="Bid_No" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
     <div class="form-group">
       <label for="Reference_number">Reference_number</label>
       <input type="text" class="form-control" id="Reference_number" placeholder="Enter Date" name="Reference_number" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-    <div class="form-group">
-      <label for="Amount_Received">Amount_Received</label>
-      <input type="text" class="form-control" id="Amount_Received" placeholder="Enter Amount_Received" name="Amount_Received" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
@@ -45,31 +39,31 @@
     </div>
    <div class="form-group">
       <label for="End_user">End_user</label>
-      <input type="file" class="form-control" id="End_user" placeholder="Enter End_user" name="End_user" required>
+      <input type="text" class="form-control" id="End_user" placeholder="Enter End_user" name="End_user" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
     <div class="form-group">
       <label for="Last_date_inquiries">Last_date_inquiries</label>
-      <input type="file" class="form-control" id="Last_date_inquiries" placeholder="Enter Last_date_inquiries" name="Last_date_inquiries" required>
-      <div class="valid-feedback">Valid.</div>
-      <div class="invalid-feedback">Please fill out this field.</div>
-    </div>
-   <div class="form-group">
-      <label for="End_user">End_user</label>
-      <input type="file" class="form-control" id="End_user" placeholder="Enter End_user" name="End_user" required>
+      <input type="date" class="form-control" id="Last_date_inquiries" placeholder="Enter Last_date_inquiries" name="Last_date_inquiries" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
    <div class="form-group">
       <label for="Deadline">End_user</label>
-      <input type="file" class="form-control" id="Deadline" placeholder="Enter Deadline" name="Deadline" required>
+      <input type="date" class="form-control" id="Deadline" placeholder="Enter Deadline" name="Deadline" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
    <div class="form-group">
       <label for="Bid_opening_date ">End_user</label>
       <input type="file" class="form-control" id="Bid_opening_date " placeholder="Enter Bid_opening_date " name="Bid_opening_date" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="Expected_award_Date ">End_user</label>
+      <input type="date" class="form-control" id="Expected_award_Date " placeholder="Enter Expected_award_Date " name="Expected_award_Date" required>
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
