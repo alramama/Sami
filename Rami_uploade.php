@@ -40,7 +40,7 @@ if (isset($_POST['submit']))
                 $path = 'uploads/';
                 
                 $Bid_name = mysqli_real_escape_string($link, $_REQUEST['Bid_name']);
-                $Bid_No = mysqli_real_escape_string($link, $_REQUEST['NAME']);
+                $Bid_No = mysqli_real_escape_string($link, $_REQUEST['Bid_No']);
                 $Reference_number = mysqli_real_escape_string($link, $_REQUEST['Reference_number']);
                 $Duration_of_contract = mysqli_real_escape_string($link, $_REQUEST['Duration_of_contract']);
                 $End_user = mysqli_real_escape_string($link, $_REQUEST['End_user']);
