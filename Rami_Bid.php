@@ -54,7 +54,7 @@ if (isset($_POST['submit']))
                 move_uploaded_file($_FILES['file1']['tmp_name'],($path . $filename));
                 
                 // insert file details into database
-                $sql = "INSERT INTO Rami_bid(Bid_name,Bid_No,Reference_number,Duration_of_contract,End_user,Last_date_inquiries,Deadline,Bid_opening_date,Expected_award_Date,filename,created) VALUES('$Bid_name','$Bid_No','$Reference_number','$Duration_of_contract','$Duration_of_contract','$End_user','$Last_date_inquiries','$Deadline','$Bid_opening_date','$Bid_opening_date','$Expected_award_Date' ,'$filename','$created')";
+                $sql = "INSERT INTO Rami_bid(Bid_name,Bid_No,Reference_number,Duration_of_contract,End_user,Last_date_inquiries,Deadline,Bid_opening_date,Expected_award_Date,filename,created) VALUES('$Bid_name','$Bid_No','$Reference_number','$Duration_of_contract','$End_user','$Last_date_inquiries','$Deadline','$Bid_opening_date','$Expected_award_Date' ,'$filename','$created')";
                 mysqli_query($con, $sql);
                 header("Location: index.php?st=success");
         }
